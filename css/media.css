@@ -1,0 +1,52 @@
+@media (max-width: 800px) {
+	.popup__container {
+		flex-wrap: wrap;
+		text-align: center;
+		overflow-y: scroll;
+		height: 60%;
+	}
+
+	.mainSide  {
+		margin-top: 5%;
+		display: block;
+		width: 80%;
+		height: 40%;
+		
+	}
+
+	.contentSide  {
+		display: block;
+		width: 100%;
+		margin-top: 65%;
+	}
+
+	.contentSide .content {
+		overflow-y: auto;
+		height: 100%;
+	}
+}
+
+@media (max-width: 645px) {
+	#products .wrapper {
+		justify-content: center;
+	}
+
+
+
+}
+
+
+
+@media (max-width: 470px) {
+	.priceBox {
+		justify-content: space-around;
+	}
+
+	.priceBox .oldprice {
+		margin-left: 0;
+	}
+
+	.priceBox .price {
+		margin-right: 0;
+	}
+}
